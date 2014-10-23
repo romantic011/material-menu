@@ -1,7 +1,21 @@
 Change Log
 ==========
 
+Version 1.2.0 (2014-09-09)
+----------------------------
+
+- added new attribute `Stroke`. It adjusts icon paint stroke width for further customisation. Possible values are
+`Stroke.REGULAR`, `Stroke.THIN` and `Stroke.EXTRA_THIN`
+
+Usage: Provide `Stroke` value to a constructor or use `xml` attribute `strokeWidth` for `MaterialMenuView`
+
+Version 1.1.3 (2014-09-03)
+----------------------------
+
+- improved CHECK to ARROW animation by adding more motion to the transformation
+
 Version 1.1.2 (2014-08-29)
+----------------------------
 
 - animatePressedState(), animateState() and setState() now cancels running transformation so you
 can spam the button and result in a correct state.
